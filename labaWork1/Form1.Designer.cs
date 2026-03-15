@@ -31,6 +31,7 @@
             program = new Button();
             button1 = new Button();
             button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // program
@@ -49,11 +50,11 @@
             // 
             button1.FlatAppearance.BorderColor = Color.Black;
             button1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            button1.Location = new Point(818, 315);
+            button1.Location = new Point(608, 315);
             button1.Name = "button1";
-            button1.Size = new Size(216, 124);
+            button1.Size = new Size(245, 124);
             button1.TabIndex = 1;
-            button1.Text = "Задание";
+            button1.Text = "Задание лаб работа";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_1;
             // 
@@ -69,11 +70,24 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.FlatAppearance.BorderColor = Color.Black;
+            button3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button3.Location = new Point(1001, 315);
+            button3.Name = "button3";
+            button3.Size = new Size(245, 124);
+            button3.TabIndex = 3;
+            button3.Text = "Задание дз";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1883, 811);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(program);
@@ -91,5 +105,6 @@
         private Button program;
         private Button button1;
         private Button button2;
+        private Button button3;
     }
 }
