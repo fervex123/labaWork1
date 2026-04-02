@@ -9,7 +9,7 @@ namespace labaWork1
 
         private void program_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Вишняков Вячеслав Павлович\nГруппа:6102-09.03.01D\nВариант:38");
+            MessageBox.Show("Вишняков Вячеслав Павлович\nГруппа:6102-09.03.01D\nВариант:38","О программе");
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -39,9 +39,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label1.Location = new Point(36, 32);
+            label1.Location = new Point(41, 43);
             label1.Name = "label1";
-            label1.Size = new Size(132, 32);
+            label1.Size = new Size(164, 41);
             label1.TabIndex = 0;
             label1.Text = "Задание 1";
             // 
@@ -49,55 +49,58 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label2.Location = new Point(36, 189);
+            label2.Location = new Point(41, 252);
             label2.Name = "label2";
-            label2.Size = new Size(519, 32);
+            label2.Size = new Size(642, 41);
             label2.TabIndex = 1;
             label2.Text = "Введите n (целое неотрицательное число)";
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            button1.Location = new Point(324, 240);
+            button1.Location = new Point(370, 320);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(222, 42);
+            button1.Size = new Size(254, 56);
             button1.TabIndex = 2;
-            button1.Text = "button1";
+            button1.Text = "Ввод";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // txt
             // 
             txt.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            txt.Location = new Point(36, 240);
+            txt.Location = new Point(41, 320);
+            txt.Margin = new Padding(3, 4, 3, 4);
             txt.Name = "txt";
-            txt.Size = new Size(222, 39);
+            txt.Size = new Size(253, 47);
             txt.TabIndex = 3;
             // 
             // lblRes
             // 
             lblRes.AutoSize = true;
             lblRes.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            lblRes.Location = new Point(751, 189);
-            lblRes.MaximumSize = new Size(400, 0);
+            lblRes.Location = new Point(858, 252);
+            lblRes.MaximumSize = new Size(457, 0);
             lblRes.Name = "lblRes";
-            lblRes.Size = new Size(88, 32);
+            lblRes.Size = new Size(110, 41);
             lblRes.TabIndex = 4;
             lblRes.Text = "Ответ:";
             // 
             // Task1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1419, 738);
+            ClientSize = new Size(1619, 973);
             Controls.Add(lblRes);
             Controls.Add(txt);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            MaximumSize = new Size(1435, 777);
-            MinimumSize = new Size(1435, 777);
+            Margin = new Padding(3, 4, 3, 4);
+            MaximumSize = new Size(1637, 1020);
+            MinimumSize = new Size(1637, 1020);
             Name = "Task1";
             StartPosition = FormStartPosition.WindowsDefaultBounds;
             Text = "Task1";
